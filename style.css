@@ -24,3 +24,28 @@
   height: 28px;
   color: #fff;
 }
+
+.whats {
+  display: inline-flex;       
+  align-items: center;
+  justify-content: center;
+  gap: 10px;                  
+  background-color: #25D366;  
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 14px 24px;
+  border-radius: 50px;        
+  white-space: nowrap;        
+  transition: background-color 0.2s ease;
+}
+
+.whats svg {
+  flex-shrink: 0;             
+  width: 18px;
+  height: 18px;
+}
+
+.whats:hover {
+  background-color: #1ebe5b; 
+}
