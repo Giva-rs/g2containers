@@ -833,26 +833,32 @@
       height: 22px;
     }
 
-    .contact-social .whats {
-      margin-top: 10px;
-      background: var(--ink);
-      color: var(--paper);
-      padding: 14px 20px;
-      border-radius: var(--radius);
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 13px;
-      letter-spacing: 0.05em;
-      text-transform: uppercase;
-      width: fit-content;
-    }
+   .contact-social .whats {
+  margin-top: 10px;
+  background: #25D366;              
+  color: #ffffff;
+  padding: 14px 20px;
+  border-radius: var(--radius);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 13px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  width: fit-content;
+  text-decoration: none;
+}
 
-    .contact-social .whats:hover {
-      background: var(--steel);
-    }
+.contact-social .whats svg {
+  flex-shrink: 0;    
+  width: 18px;
+  height: 18px;
+}
 
+.contact-social .whats:hover {
+  background: #1ebe5b;              
+}
     /* ---------- FOOTER ---------- */
     footer {
       background: var(--ink);
